@@ -10,6 +10,7 @@ app.layout = html.Div([
     # html.Div(dcc.Input(id='input-box', type='text')),
     html.Button('Get Artist', id='artist_btn'),
 
+
     html.Div(id='output-container',
              children='Enter a value and press submit')
 ])
