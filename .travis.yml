@@ -1,0 +1,9 @@
+language: python 
+python: '3.6' 
+deploy:
+  provider: heroku
+  api_key:
+    secure: RtQ4dpkkmXh/jr9/Vn3ZXe/nVoxrYJAYZXmmApRo6Bk3c3+75cgkZRRwPT4SiQPrLkgyQPwbM4hbYYhzO0ENt6/iD6jOA9MoRfhvsQ7PjSq0u8gEEVR5W6x6vXryPBGoa4yMLEQuMLalhrAnHJxeDFQLbDRM8u+LbY34/W6x1l9VCYYHrV4coWd3+x2MqsYiJUOFUmsfEVtOO523/Xvxelvq1eJM5BrmH6MZVTANV9gR96EvIVfMgag6mKTFwkDm0n5RshOpr0q93MgKTpvmgg0T+NaBn524CYI793ulr1JrGpnnFGsYPQT0TKWX6Ahvjpv9i/RimOJB8f3AxtG9+QJq+eULxkdw8KIeLRN2wgXKeW/FG6JI4qS/tY24kWl1Nd2qAQEM4NVe37E+vJZG2frNw90a8SYOGtFjr0dP/zaPowYjyYZ4uXOpV25MZygvOPnJ93SJ7DyTJmMnzKDXApto6p5wVk56yc1mKClqTQDZWrB+UK8mgSbyLmfp4P5uUjIp0uATgJlC+zjEqX3nIkm3lIqjJTh6h++fsovrDrLTPKtWq05BJS9c/l2hx95WC6jdCOcmfRqy3GYIqddEPc5hAc6jPNkAVC7uK7fI7+BeiHgw1LK4evsB7XawEXWtW3vMHE7cBhoC58fckUKsHk0CJx10ifFQmyNV8cJwCPI=
+  app: rap-stats-app
+  on:
+    repo: dadrake3/rap-stats-app
