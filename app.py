@@ -6,6 +6,7 @@ import requests
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 app.layout = html.Div([
     # html.Div(dcc.Input(id='input-box', type='text')),
     html.Button('Get Artist', id='artist_btn'),
